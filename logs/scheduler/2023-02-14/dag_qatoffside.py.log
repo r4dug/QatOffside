@@ -152,3 +152,94 @@
 [2023-02-14T12:11:16.154+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:11:16.154+0000] {dag.py:2676} INFO - Sync 1 DAGs
 [2023-02-14T12:11:16.186+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:11:16.186+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
 [2023-02-14T12:11:16.207+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.144 seconds
+[2023-02-14T12:11:46.558+0000] {processor.py:153} INFO - Started process (PID=1759) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:11:46.560+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:11:46.562+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:11:46.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:11:46.582+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:11:46.625+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:11:46.625+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:11:46.655+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:11:46.655+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:11:46.676+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.123 seconds
+[2023-02-14T12:12:16.720+0000] {processor.py:153} INFO - Started process (PID=1846) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:12:16.722+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:12:16.724+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:12:16.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:12:16.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:12:16.787+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:12:16.787+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:12:16.818+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:12:16.817+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:12:16.842+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.125 seconds
+[2023-02-14T12:12:47.746+0000] {processor.py:153} INFO - Started process (PID=1917) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:12:47.748+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:12:47.750+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:12:47.750+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:12:47.778+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:12:47.832+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:12:47.832+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:12:47.889+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:12:47.889+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:12:47.928+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.188 seconds
+[2023-02-14T12:13:18.521+0000] {processor.py:153} INFO - Started process (PID=2004) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:13:18.523+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:13:18.525+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:13:18.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:13:18.550+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:13:18.596+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:13:18.596+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:13:18.628+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:13:18.628+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:13:18.656+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.140 seconds
+[2023-02-14T12:13:49.120+0000] {processor.py:153} INFO - Started process (PID=2075) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:13:49.122+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:13:49.124+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:13:49.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:13:49.144+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:13:49.187+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:13:49.187+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:13:49.215+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:13:49.215+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:13:49.234+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.118 seconds
+[2023-02-14T12:14:19.834+0000] {processor.py:153} INFO - Started process (PID=2162) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:14:19.836+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:14:19.838+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:14:19.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:14:19.867+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:14:19.927+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:14:19.927+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:14:19.973+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:14:19.973+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:14:20.010+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.182 seconds
+[2023-02-14T12:14:50.644+0000] {processor.py:153} INFO - Started process (PID=2233) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:14:50.647+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:14:50.649+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:14:50.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:14:50.677+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:14:50.738+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:14:50.737+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:14:50.776+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:14:50.775+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:14:50.805+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.168 seconds
+[2023-02-14T12:15:20.860+0000] {processor.py:153} INFO - Started process (PID=2320) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:15:20.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:15:20.863+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:15:20.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:15:20.885+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:15:20.933+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:15:20.933+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:15:20.959+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:15:20.959+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:15:20.984+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.127 seconds
+[2023-02-14T12:15:51.456+0000] {processor.py:153} INFO - Started process (PID=2391) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:15:51.458+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:15:51.460+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:15:51.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:15:51.485+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:15:51.537+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:15:51.536+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:15:51.569+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:15:51.569+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:15:51.594+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.144 seconds
+[2023-02-14T12:16:22.510+0000] {processor.py:153} INFO - Started process (PID=2478) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:16:22.513+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:16:22.516+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:16:22.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:16:22.549+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:16:22.645+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:16:22.645+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:16:22.731+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:16:22.731+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:16:22.777+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.275 seconds
+[2023-02-14T12:16:53.256+0000] {processor.py:153} INFO - Started process (PID=2549) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:16:53.259+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:16:53.262+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:16:53.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:16:53.288+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:16:53.341+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:16:53.341+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:16:53.377+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:16:53.377+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:16:53.432+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.182 seconds
+[2023-02-14T12:17:23.496+0000] {processor.py:153} INFO - Started process (PID=2620) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:17:23.498+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:17:23.500+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:17:23.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:17:23.526+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:17:23.580+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:17:23.579+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:17:23.617+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:17:23.617+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:17:23.645+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.154 seconds
+[2023-02-14T12:17:53.986+0000] {processor.py:153} INFO - Started process (PID=2707) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:17:53.989+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-14T12:17:53.990+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:17:53.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:17:54.015+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-14T12:17:54.066+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:17:54.066+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-14T12:17:54.102+0000] {logging_mixin.py:137} INFO - [2023-02-14T12:17:54.102+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-07T00:00:00+00:00, run_after=2023-02-08T00:00:00+00:00
+[2023-02-14T12:17:54.131+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.151 seconds
