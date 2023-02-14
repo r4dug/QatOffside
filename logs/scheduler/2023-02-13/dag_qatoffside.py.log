@@ -1,0 +1,256 @@
+[2023-02-13T18:56:42.355+0000] {processor.py:153} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:56:42.357+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T18:56:42.362+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:56:42.362+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:56:42.406+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:56:42.401+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T18:56:42.408+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:56:42.450+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.105 seconds
+[2023-02-13T18:57:12.837+0000] {processor.py:153} INFO - Started process (PID=124) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:57:12.839+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T18:57:12.841+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:57:12.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:57:12.853+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:57:12.851+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T18:57:12.855+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:57:12.879+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.048 seconds
+[2023-02-13T18:57:43.792+0000] {processor.py:153} INFO - Started process (PID=195) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:57:43.796+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T18:57:43.801+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:57:43.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:57:43.822+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:57:43.817+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T18:57:43.825+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:57:43.874+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.088 seconds
+[2023-02-13T18:58:14.038+0000] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:58:14.040+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T18:58:14.042+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:58:14.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:58:14.068+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:58:14.066+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T18:58:14.069+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:58:14.089+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.055 seconds
+[2023-02-13T18:58:45.100+0000] {processor.py:153} INFO - Started process (PID=353) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:58:45.103+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T18:58:45.106+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:58:45.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:58:45.123+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:58:45.120+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T18:58:45.124+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:58:45.162+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.072 seconds
+[2023-02-13T18:59:15.252+0000] {processor.py:153} INFO - Started process (PID=440) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:59:15.255+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T18:59:15.257+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:59:15.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:59:15.269+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:59:15.266+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T18:59:15.272+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:59:15.298+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.051 seconds
+[2023-02-13T18:59:46.128+0000] {processor.py:153} INFO - Started process (PID=511) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:59:46.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T18:59:46.132+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:59:46.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:59:46.141+0000] {logging_mixin.py:137} INFO - [2023-02-13T18:59:46.138+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T18:59:46.142+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T18:59:46.166+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.041 seconds
+[2023-02-13T19:00:16.858+0000] {processor.py:153} INFO - Started process (PID=598) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:00:16.860+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:00:16.862+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:00:16.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:00:16.872+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:00:16.870+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:00:16.874+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:00:16.898+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.045 seconds
+[2023-02-13T19:00:47.866+0000] {processor.py:153} INFO - Started process (PID=669) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:00:47.869+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:00:47.871+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:00:47.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:00:47.881+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:00:47.878+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:00:47.883+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:00:47.907+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.044 seconds
+[2023-02-13T19:01:18.476+0000] {processor.py:153} INFO - Started process (PID=755) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:01:18.478+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:01:18.479+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:01:18.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:01:18.487+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:01:18.485+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:01:18.489+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:01:18.511+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.038 seconds
+[2023-02-13T19:01:48.774+0000] {processor.py:153} INFO - Started process (PID=826) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:01:48.776+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:01:48.778+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:01:48.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:01:48.786+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:01:48.784+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:01:48.787+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:01:48.809+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.039 seconds
+[2023-02-13T19:02:19.177+0000] {processor.py:153} INFO - Started process (PID=913) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:02:19.179+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:02:19.181+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:02:19.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:02:19.191+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:02:19.189+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:02:19.192+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:02:19.214+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.040 seconds
+[2023-02-13T19:02:49.880+0000] {processor.py:153} INFO - Started process (PID=984) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:02:49.882+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:02:49.884+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:02:49.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:02:49.895+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:02:49.892+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:02:49.897+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:02:49.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.043 seconds
+[2023-02-13T19:03:32.769+0000] {processor.py:153} INFO - Started process (PID=1039) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:03:32.783+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:03:32.818+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:03:32.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:03:32.895+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:03:32.871+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:03:32.913+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:03:33.201+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.560 seconds
+[2023-02-13T19:04:03.758+0000] {processor.py:153} INFO - Started process (PID=1125) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:03.762+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:04:03.764+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:03.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:03.776+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:03.773+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:04:03.778+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:03.809+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.055 seconds
+[2023-02-13T19:04:34.691+0000] {processor.py:153} INFO - Started process (PID=1196) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:34.693+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:04:34.695+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:34.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:34.704+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:34.702+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/dag_qatoffside.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_qatoffside.py", line 2, in <module>
+    from airflow.operators import BashOperator,PythonOperator
+ImportError: cannot import name 'BashOperator' from 'airflow.operators' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/__init__.py)
+[2023-02-13T19:04:34.705+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:34.732+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.045 seconds
+[2023-02-13T19:04:45.208+0000] {processor.py:153} INFO - Started process (PID=1251) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:45.210+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:04:45.212+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:45.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:45.244+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:04:45.508+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:45.507+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:simple
+[2023-02-13T19:04:45.518+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:45.518+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:simple
+[2023-02-13T19:04:45.525+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:45.525+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:simple
+[2023-02-13T19:04:45.527+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:45.527+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-13T19:04:45.542+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:45.542+0000] {dag.py:2697} INFO - Creating ORM DAG for simple
+[2023-02-13T19:04:45.556+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:04:45.556+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-06T00:00:00+00:00, run_after=2023-02-07T00:00:00+00:00
+[2023-02-13T19:04:45.576+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.373 seconds
+[2023-02-13T19:09:11.761+0000] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:09:11.780+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:09:11.815+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:09:11.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:09:11.882+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:09:11.942+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:09:11.942+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-13T19:09:11.983+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:09:11.983+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-06T00:00:00+00:00, run_after=2023-02-07T00:00:00+00:00
+[2023-02-13T19:09:12.015+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.259 seconds
+[2023-02-13T19:09:42.306+0000] {processor.py:153} INFO - Started process (PID=126) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:09:42.309+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:09:42.312+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:09:42.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:09:42.349+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:09:42.442+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:09:42.441+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-13T19:09:42.481+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:09:42.481+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-06T00:00:00+00:00, run_after=2023-02-07T00:00:00+00:00
+[2023-02-13T19:09:42.508+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.209 seconds
+[2023-02-13T19:10:12.613+0000] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:10:12.617+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_qatoffside.py for tasks to queue
+[2023-02-13T19:10:12.621+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:10:12.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:10:12.663+0000] {processor.py:753} INFO - DAG(s) dict_keys(['simple']) retrieved from /opt/airflow/dags/dag_qatoffside.py
+[2023-02-13T19:10:12.737+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:10:12.737+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-13T19:10:12.813+0000] {logging_mixin.py:137} INFO - [2023-02-13T19:10:12.812+0000] {dag.py:3427} INFO - Setting next_dagrun for simple to 2023-02-06T00:00:00+00:00, run_after=2023-02-07T00:00:00+00:00
+[2023-02-13T19:10:12.872+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_qatoffside.py took 0.270 seconds

@@ -1,0 +1,208 @@
+1670945098349	geckodriver	INFO	Listening on 127.0.0.1:62027
+1670945098581	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62028" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileoWGo9c"
+2022-12-13 17:24:59.452 plugin-container[33932:388634] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-13 17:24:59.453 plugin-container[33932:388634] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-13 17:24:59.457 plugin-container[33932:388634] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-13 17:24:59.457 plugin-container[33932:388634] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-13 17:24:59.458 plugin-container[33932:388656] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-13 17:24:59.458 plugin-container[33932:388656] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1670945099469	Marionette	INFO	Marionette enabled
+1670945099511	Marionette	INFO	Listening on port 62036
+Read port: 62036
+WebDriver BiDi listening on ws://127.0.0.1:62028
+1670945099789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileoWGo9c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62028/devtools/browser/bc94d5ba-f42f-4415-86a6-e43e733f099f
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 214 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 183: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://www.sofascore.ro/_next/static/chunks/webpack-284a64ef174af0a3.js, line 1: ChunkLoadError: Loading chunk 6705 failed.
+(error: https://www.sofascore.ro/_next/static/chunks/6705-9bec677bfdb78205.js)
+JavaScript error: https://www.sofascore.ro/_next/static/chunks/webpack-284a64ef174af0a3.js, line 1: ChunkLoadError: Loading chunk 5752 failed.
+(error: https://www.sofascore.ro/_next/static/chunks/5752.f52b8cf59b581f0a.js)
+JavaScript error: https://www.sofascore.ro/_next/static/chunks/webpack-284a64ef174af0a3.js, line 1: ChunkLoadError: Loading chunk 2131 failed.
+(error: https://www.sofascore.ro/_next/static/chunks/2131.c5e8605cdbbc2886.js)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 384 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Failed to start [root-node] legacy listener for target null" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934655/domwalker33, type watchRootNode failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nmodule.exports@resource://devtools/shared/commands/resource/legacy-listeners/root-node.js:60:31\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934661/layout37, type getGrids failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\ngetAllGrids@resource://devtools/client/fronts/layout.js:173:17\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\ngetGrids@resource://devtools/client/inspector/grids/grid-inspector.js:452:35\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+1670947144738	Marionette	INFO	Stopped listening on port 62036
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671008501036	geckodriver	INFO	Listening on 127.0.0.1:63971
+1671008501475	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63972" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileLxCe8n"
+2022-12-14 11:01:42.038 plugin-container[39156:955109] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:01:42.039 plugin-container[39156:955109] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:01:42.043 plugin-container[39156:955109] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:01:42.043 plugin-container[39156:955109] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:01:42.043 plugin-container[39156:955107] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:01:42.043 plugin-container[39156:955107] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671008502055	Marionette	INFO	Marionette enabled
+1671008502106	Marionette	INFO	Listening on port 63985
+Read port: 63985
+WebDriver BiDi listening on ws://127.0.0.1:63972
+1671008502283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileLxCe8n/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63972/devtools/browser/03f859d6-b045-4936-bdf7-8ac983eecd37
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671008572583	geckodriver	INFO	Listening on 127.0.0.1:64413
+1671008573011	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64414" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofilegvS7Fx"
+2022-12-14 11:02:53.636 plugin-container[39557:957159] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:02:53.636 plugin-container[39557:957159] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:02:53.643 plugin-container[39557:957159] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:02:53.643 plugin-container[39557:957159] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:02:53.644 plugin-container[39557:957166] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:02:53.644 plugin-container[39557:957166] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671008573657	Marionette	INFO	Marionette enabled
+1671008573712	Marionette	INFO	Listening on port 64425
+Read port: 64425
+WebDriver BiDi listening on ws://127.0.0.1:64414
+1671008574127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofilegvS7Fx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64414/devtools/browser/286bc9c4-ef40-47a1-b737-3d9f45ba9e86
+1671008585679	Marionette	INFO	Stopped listening on port 64425
+1671008588064	Marionette	INFO	Stopped listening on port 63985
+1671008688897	geckodriver	INFO	Listening on 127.0.0.1:65011
+1671008689343	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65012" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileaZHSdk"
+2022-12-14 11:04:49.825 plugin-container[40057:959520] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:04:49.825 plugin-container[40057:959520] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:04:49.829 plugin-container[40057:959520] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:04:49.829 plugin-container[40057:959520] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:04:49.830 plugin-container[40057:959518] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:04:49.830 plugin-container[40057:959518] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671008689835	Marionette	INFO	Marionette enabled
+1671008689869	Marionette	INFO	Listening on port 65022
+Read port: 65022
+WebDriver BiDi listening on ws://127.0.0.1:65012
+1671008690138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileaZHSdk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65012/devtools/browser/7e078c70-266c-47e4-a397-608f43eb875c
+1671008695443	Marionette	INFO	Stopped listening on port 65022
+1671008709658	geckodriver	INFO	Listening on 127.0.0.1:65222
+1671008710105	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "65223" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofilecYNOv3"
+2022-12-14 11:05:10.575 plugin-container[40339:960450] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:05:10.576 plugin-container[40339:960450] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:05:10.580 plugin-container[40339:960450] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:05:10.580 plugin-container[40339:960450] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:05:10.581 plugin-container[40339:960448] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:05:10.581 plugin-container[40339:960448] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671008710587	Marionette	INFO	Marionette enabled
+1671008710620	Marionette	INFO	Listening on port 65236
+Read port: 65236
+WebDriver BiDi listening on ws://127.0.0.1:65223
+1671008710897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofilecYNOv3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65223/devtools/browser/27c286b1-42a7-496b-b926-c59fafa609f1
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 183: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 158: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 158: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 158: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 158: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 158: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+1671008807143	geckodriver	INFO	Listening on 127.0.0.1:49396
+1671008807580	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49397" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileFZL3Ve"
+2022-12-14 11:06:48.068 plugin-container[40606:962178] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:06:48.069 plugin-container[40606:962178] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:06:48.074 plugin-container[40606:962178] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:06:48.074 plugin-container[40606:962178] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:06:48.074 plugin-container[40606:962202] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:06:48.074 plugin-container[40606:962202] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671008808079	Marionette	INFO	Marionette enabled
+1671008808112	Marionette	INFO	Listening on port 49406
+Read port: 49406
+WebDriver BiDi listening on ws://127.0.0.1:49397
+1671008808322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileFZL3Ve/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49397/devtools/browser/11a4dfb0-f86d-42f8-a791-ed54547284f1
+1671008868580	Marionette	INFO	Stopped listening on port 49406
+1671008870684	Marionette	INFO	Stopped listening on port 65236
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1671008908891	geckodriver	INFO	Listening on 127.0.0.1:49953
+1671008909328	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49954" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileVZLSjT"
+2022-12-14 11:08:29.779 plugin-container[41351:965016] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:08:29.779 plugin-container[41351:965016] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:08:29.783 plugin-container[41351:965016] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:08:29.783 plugin-container[41351:965016] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:08:29.783 plugin-container[41351:965021] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:08:29.783 plugin-container[41351:965021] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671008909789	Marionette	INFO	Marionette enabled
+1671008909821	Marionette	INFO	Listening on port 49963
+Read port: 49963
+WebDriver BiDi listening on ws://127.0.0.1:49954
+1671008910004	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileVZLSjT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49954/devtools/browser/a942f284-a1a6-4c0b-a32f-cdb71d724c40
+1671008992138	geckodriver	INFO	Listening on 127.0.0.1:50388
+1671008992574	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50389" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileS92UIn"
+2022-12-14 11:09:53.047 plugin-container[42122:967320] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:09:53.048 plugin-container[42122:967320] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:09:53.051 plugin-container[42122:967320] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:09:53.051 plugin-container[42122:967320] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-14 11:09:53.052 plugin-container[42122:967325] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-14 11:09:53.052 plugin-container[42122:967325] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1671008993057	Marionette	INFO	Marionette enabled
+1671008993089	Marionette	INFO	Listening on port 50399
+Read port: 50399
+WebDriver BiDi listening on ws://127.0.0.1:50389
+1671008993373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/61/kwyq11fd1znc0yz_h_jrfjz00000gq/T/rust_mozprofileS92UIn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50389/devtools/browser/7738e84a-dd0b-47cf-a486-69ff9af4817c
+1671009004425	Marionette	INFO	Stopped listening on port 50399
+1671009484011	Marionette	INFO	Stopped listening on port 49963
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
