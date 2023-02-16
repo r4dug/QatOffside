@@ -1,0 +1,5 @@
+beautifulsoup4
+xml
+pandas
+snowflake-connector-python
+snowflake-sqlalchemy

@@ -1,0 +1,38 @@
+[2023-02-15T15:56:04.923+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: abc.test_airflow manual__2023-02-15T15:56:03.567506+00:00 [queued]>
+[2023-02-15T15:56:04.938+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: abc.test_airflow manual__2023-02-15T15:56:03.567506+00:00 [queued]>
+[2023-02-15T15:56:04.939+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T15:56:04.941+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-02-15T15:56:04.942+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T15:56:04.969+0000] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): test_airflow> on 2023-02-15 15:56:03.567506+00:00
+[2023-02-15T15:56:04.978+0000] {standard_task_runner.py:55} INFO - Started process 42997 to run task
+[2023-02-15T15:56:04.984+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'abc', 'test_***', 'manual__2023-02-15T15:56:03.567506+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/dag_qatoffside.py', '--cfg-path', '/tmp/tmp3cjx_7sb']
+[2023-02-15T15:56:04.985+0000] {standard_task_runner.py:83} INFO - Job 68: Subtask test_***
+[2023-02-15T15:56:05.100+0000] {task_command.py:389} INFO - Running <TaskInstance: abc.test_airflow manual__2023-02-15T15:56:03.567506+00:00 [running]> on host 55b685598511
+[2023-02-15T15:56:05.221+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@***.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=abc
+AIRFLOW_CTX_TASK_ID=test_***
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-15T15:56:03.567506+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-15T15:56:03.567506+00:00
+[2023-02-15T15:56:05.227+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-15T15:56:05.230+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 /opt/***/dags/scraper_specific.py']
+[2023-02-15T15:56:05.248+0000] {subprocess.py:86} INFO - Output:
+[2023-02-15T15:56:06.204+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-02-15T15:56:06.206+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/scraper_specific.py", line 4, in <module>
+[2023-02-15T15:56:06.207+0000] {subprocess.py:93} INFO -     from snowflake.sqlalchemy import URL
+[2023-02-15T15:56:06.209+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'snowflake'
+[2023-02-15T15:56:06.291+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2023-02-15T15:56:06.307+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2023-02-15T15:56:06.315+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=abc, task_id=test_***, execution_date=20230215T155603, start_date=20230215T155604, end_date=20230215T155606
+[2023-02-15T15:56:06.332+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 68 for task test_*** (Bash command failed. The command returned a non-zero exit code 1.; 42997)
+[2023-02-15T15:56:06.363+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-02-15T15:56:06.385+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

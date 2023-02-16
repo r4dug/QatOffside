@@ -1,0 +1,35 @@
+[2023-02-15T15:44:22.346+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: abc.test_airflow manual__2023-02-15T15:44:21.334200+00:00 [queued]>
+[2023-02-15T15:44:22.360+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: abc.test_airflow manual__2023-02-15T15:44:21.334200+00:00 [queued]>
+[2023-02-15T15:44:22.362+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T15:44:22.363+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-02-15T15:44:22.365+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T15:44:22.385+0000] {taskinstance.py:1304} INFO - Executing <Task(BashOperator): test_airflow> on 2023-02-15 15:44:21.334200+00:00
+[2023-02-15T15:44:22.393+0000] {standard_task_runner.py:55} INFO - Started process 42035 to run task
+[2023-02-15T15:44:22.399+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'abc', 'test_***', 'manual__2023-02-15T15:44:21.334200+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/dag_qatoffside.py', '--cfg-path', '/tmp/tmpi_w44yp1']
+[2023-02-15T15:44:22.401+0000] {standard_task_runner.py:83} INFO - Job 63: Subtask test_***
+[2023-02-15T15:44:22.497+0000] {task_command.py:389} INFO - Running <TaskInstance: abc.test_airflow manual__2023-02-15T15:44:21.334200+00:00 [running]> on host 55b685598511
+[2023-02-15T15:44:22.599+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@***.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=abc
+AIRFLOW_CTX_TASK_ID=test_***
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-15T15:44:21.334200+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-15T15:44:21.334200+00:00
+[2023-02-15T15:44:22.604+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-02-15T15:44:22.606+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python3 scraper_specific.py']
+[2023-02-15T15:44:22.632+0000] {subprocess.py:86} INFO - Output:
+[2023-02-15T15:44:22.780+0000] {subprocess.py:93} INFO - python3: can't open file 'scraper_specific.py': [Errno 2] No such file or directory
+[2023-02-15T15:44:22.788+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2023-02-15T15:44:22.808+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 197, in execute
+    f"Bash command failed. The command returned a non-zero exit code {result.exit_code}."
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2023-02-15T15:44:22.815+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=abc, task_id=test_***, execution_date=20230215T154421, start_date=20230215T154422, end_date=20230215T154422
+[2023-02-15T15:44:22.834+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 63 for task test_*** (Bash command failed. The command returned a non-zero exit code 2.; 42035)
+[2023-02-15T15:44:22.854+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-02-15T15:44:22.880+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

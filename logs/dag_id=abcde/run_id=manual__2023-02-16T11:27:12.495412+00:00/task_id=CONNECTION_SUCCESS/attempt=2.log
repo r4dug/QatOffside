@@ -1,0 +1,32 @@
+[2023-02-16T11:34:46.367+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: abcde.CONNECTION_SUCCESS manual__2023-02-16T11:27:12.495412+00:00 [queued]>
+[2023-02-16T11:34:46.386+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: abcde.CONNECTION_SUCCESS manual__2023-02-16T11:27:12.495412+00:00 [queued]>
+[2023-02-16T11:34:46.388+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16T11:34:46.390+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 2
+[2023-02-16T11:34:46.392+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-16T11:34:46.417+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): CONNECTION_SUCCESS> on 2023-02-16 11:27:12.495412+00:00
+[2023-02-16T11:34:46.427+0000] {standard_task_runner.py:55} INFO - Started process 448 to run task
+[2023-02-16T11:34:46.433+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'abcde', 'CONNECTION_SUCCESS', 'manual__2023-02-16T11:27:12.495412+00:00', '--job-id', '117', '--raw', '--subdir', 'DAGS_FOLDER/dag_scrape_specific.py', '--cfg-path', '/tmp/tmp3qfeld6w']
+[2023-02-16T11:34:46.437+0000] {standard_task_runner.py:83} INFO - Job 117: Subtask CONNECTION_SUCCESS
+[2023-02-16T11:34:46.951+0000] {task_command.py:389} INFO - Running <TaskInstance: abcde.CONNECTION_SUCCESS manual__2023-02-16T11:27:12.495412+00:00 [running]> on host 55b685598511
+[2023-02-16T11:34:47.044+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=test
+AIRFLOW_CTX_DAG_ID=abcde
+AIRFLOW_CTX_TASK_ID=CONNECTION_SUCCESS
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-16T11:27:12.495412+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-16T11:27:12.495412+00:00
+[2023-02-16T11:34:47.047+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_scrape_specific.py", line 42, in validation_connection
+    print('This is my Database : ' +str(conn.database))
+AttributeError: 'Engine' object has no attribute 'database'
+[2023-02-16T11:34:47.061+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=abcde, task_id=CONNECTION_SUCCESS, execution_date=20230216T112712, start_date=20230216T113446, end_date=20230216T113447
+[2023-02-16T11:34:47.080+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 117 for task CONNECTION_SUCCESS ('Engine' object has no attribute 'database'; 448)
+[2023-02-16T11:34:47.129+0000] {local_task_job.py:159} INFO - Task exited with return code 1
