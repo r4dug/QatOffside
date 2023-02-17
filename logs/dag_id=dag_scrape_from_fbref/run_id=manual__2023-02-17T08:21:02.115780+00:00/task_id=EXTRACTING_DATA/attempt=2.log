@@ -1,0 +1,45 @@
+[2023-02-17T08:26:20.362+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_scrape_from_fbref.EXTRACTING_DATA manual__2023-02-17T08:21:02.115780+00:00 [queued]>
+[2023-02-17T08:26:20.552+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_scrape_from_fbref.EXTRACTING_DATA manual__2023-02-17T08:21:02.115780+00:00 [queued]>
+[2023-02-17T08:26:20.554+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:26:20.555+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 2
+[2023-02-17T08:26:20.556+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:26:20.574+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): EXTRACTING_DATA> on 2023-02-17 08:21:02.115780+00:00
+[2023-02-17T08:26:20.582+0000] {standard_task_runner.py:55} INFO - Started process 571 to run task
+[2023-02-17T08:26:20.588+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_scrape_from_fbref', 'EXTRACTING_DATA', 'manual__2023-02-17T08:21:02.115780+00:00', '--job-id', '138', '--raw', '--subdir', 'DAGS_FOLDER/dag_scrape_fbref.py', '--cfg-path', '/tmp/tmpy30tok_3']
+[2023-02-17T08:26:20.592+0000] {standard_task_runner.py:83} INFO - Job 138: Subtask EXTRACTING_DATA
+[2023-02-17T08:26:20.663+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_scrape_from_fbref.EXTRACTING_DATA manual__2023-02-17T08:21:02.115780+00:00 [running]> on host 55b685598511
+[2023-02-17T08:26:20.748+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=test
+AIRFLOW_CTX_DAG_ID=dag_scrape_from_fbref
+AIRFLOW_CTX_TASK_ID=EXTRACTING_DATA
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T08:21:02.115780+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-17T08:21:02.115780+00:00
+[2023-02-17T08:26:32.244+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_scrape_fbref.py", line 103, in extract_data_send_to_snowflake
+    goalkeeping=pd.read_html(data.text, match="Goalkeeping")[0]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 1113, in read_html
+    displayed_only=displayed_only,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 926, in _parse
+    raise retained
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 906, in _parse
+    tables = p.parse_tables()
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 222, in parse_tables
+    tables = self._parse_tables(self._build_doc(), self.match, self.attrs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 568, in _parse_tables
+    raise ValueError(f"No tables found matching pattern {repr(match.pattern)}")
+ValueError: No tables found matching pattern 'Goalkeeping'
+[2023-02-17T08:26:32.258+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=dag_scrape_from_fbref, task_id=EXTRACTING_DATA, execution_date=20230217T082102, start_date=20230217T082620, end_date=20230217T082632
+[2023-02-17T08:26:32.279+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 138 for task EXTRACTING_DATA (No tables found matching pattern 'Goalkeeping'; 571)
+[2023-02-17T08:26:32.333+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-02-17T08:26:32.357+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

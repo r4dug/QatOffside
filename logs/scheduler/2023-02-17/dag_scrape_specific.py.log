@@ -1,0 +1,632 @@
+[2023-02-17T08:14:36.833+0000] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:14:36.835+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:14:36.837+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:14:36.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:14:37.484+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:14:38.123+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:14:38.404+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:14:38.403+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:14:38.433+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:14:38.433+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:14:38.465+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.635 seconds
+[2023-02-17T08:15:08.983+0000] {processor.py:153} INFO - Started process (PID=131) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:15:08.986+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:15:08.987+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:08.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:15:09.227+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:15:09.565+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:15:09.602+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:09.601+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:15:09.628+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:09.628+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:15:09.648+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.669 seconds
+[2023-02-17T08:15:40.637+0000] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:15:40.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:15:40.642+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:40.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:15:40.921+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:15:41.112+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:15:41.158+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:41.156+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:15:41.344+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:15:41.344+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:15:41.365+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.732 seconds
+[2023-02-17T08:16:11.690+0000] {processor.py:153} INFO - Started process (PID=304) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:16:11.692+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:16:11.694+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:11.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:16:11.929+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:16:12.126+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:16:12.375+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:12.374+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:16:12.404+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:12.404+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:16:12.422+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.736 seconds
+[2023-02-17T08:16:43.350+0000] {processor.py:153} INFO - Started process (PID=383) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:16:43.353+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:16:43.354+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:43.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:16:43.610+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:16:43.850+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:16:44.041+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:44.041+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:16:44.069+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:16:44.069+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:16:44.088+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.745 seconds
+[2023-02-17T08:17:14.194+0000] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:17:14.196+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:17:14.198+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:14.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:17:14.491+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:17:14.920+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:17:14.961+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:14.961+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:17:14.994+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:14.994+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:17:15.021+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.832 seconds
+[2023-02-17T08:17:45.224+0000] {processor.py:153} INFO - Started process (PID=557) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:17:45.227+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:17:45.230+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:45.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:17:45.624+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:17:45.833+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:17:45.872+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:45.871+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:17:46.096+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:17:46.096+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:17:46.122+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.905 seconds
+[2023-02-17T08:18:16.223+0000] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:18:16.225+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:18:16.226+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:16.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:18:16.562+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:18:16.814+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:18:17.057+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:17.056+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:18:17.088+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:17.087+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:18:17.107+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.889 seconds
+[2023-02-17T08:18:47.437+0000] {processor.py:153} INFO - Started process (PID=739) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:18:47.440+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:18:47.441+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:47.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:18:47.682+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:18:47.876+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:18:48.060+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:48.060+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:18:48.088+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:18:48.088+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:18:48.109+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.676 seconds
+[2023-02-17T08:19:18.351+0000] {processor.py:153} INFO - Started process (PID=833) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:19:18.353+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:19:18.355+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:19:18.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:19:18.636+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:19:19.024+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:19:19.067+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:19:19.066+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:19:19.103+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:19:19.102+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:19:19.131+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.785 seconds
+[2023-02-17T08:20:23.283+0000] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:20:23.291+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:20:23.293+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:23.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:20:24.263+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:20:24.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:20:25.041+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:25.040+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:20:25.094+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:25.093+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:20:25.129+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.857 seconds
+[2023-02-17T08:20:56.157+0000] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:20:56.160+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:20:56.162+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:56.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:20:56.474+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:20:56.938+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:20:56.981+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:56.980+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:20:57.011+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:20:57.010+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:20:57.035+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.884 seconds
+[2023-02-17T08:21:27.384+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:21:27.386+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:21:27.387+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:27.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:21:27.699+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:21:27.987+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:21:28.044+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:28.042+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:21:28.242+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:28.242+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:21:28.266+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.887 seconds
+[2023-02-17T08:21:58.320+0000] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:21:58.322+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:21:58.324+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:58.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:21:58.580+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:21:58.779+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:21:58.953+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:58.952+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:21:58.983+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:21:58.983+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:21:59.004+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.689 seconds
+[2023-02-17T08:22:29.993+0000] {processor.py:153} INFO - Started process (PID=392) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:22:29.995+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:22:29.997+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:22:29.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:22:30.387+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:22:30.707+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:22:31.061+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:22:31.061+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:22:31.103+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:22:31.103+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:22:31.142+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.154 seconds
+[2023-02-17T08:23:01.271+0000] {processor.py:153} INFO - Started process (PID=487) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:23:01.275+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:23:01.278+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:23:01.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:23:01.636+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:23:02.031+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:23:02.073+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:23:02.072+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:23:02.105+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:23:02.104+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:23:02.129+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.863 seconds
+[2023-02-17T08:23:32.207+0000] {processor.py:153} INFO - Started process (PID=567) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:23:32.209+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:23:32.211+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:23:32.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:23:32.441+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:23:32.619+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:23:32.656+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:23:32.655+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:23:32.817+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:23:32.817+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:23:32.839+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.636 seconds
+[2023-02-17T08:24:03.760+0000] {processor.py:153} INFO - Started process (PID=662) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:03.764+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:24:03.766+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:03.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:04.101+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:24:04.323+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:04.525+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:04.524+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:24:04.560+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:04.560+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:24:04.584+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.830 seconds
+[2023-02-17T08:24:35.010+0000] {processor.py:153} INFO - Started process (PID=742) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:35.013+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:24:35.014+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:35.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:35.279+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:24:35.477+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:35.655+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:35.655+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:24:35.685+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:35.685+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:24:35.705+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.700 seconds
+[2023-02-17T08:24:58.638+0000] {processor.py:153} INFO - Started process (PID=820) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:58.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:24:58.641+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:58.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:58.890+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:24:59.253+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:24:59.293+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:59.292+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:24:59.323+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:24:59.323+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:24:59.348+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.714 seconds
+[2023-02-17T08:25:29.430+0000] {processor.py:153} INFO - Started process (PID=914) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:25:29.432+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:25:29.434+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:25:29.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:25:29.768+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:25:30.028+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:25:30.085+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:25:30.083+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:25:30.273+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:25:30.273+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:25:30.298+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.872 seconds
+[2023-02-17T08:26:00.462+0000] {processor.py:153} INFO - Started process (PID=996) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:26:00.465+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:26:00.467+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:26:00.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:26:00.721+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:26:00.931+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:26:01.121+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:26:01.121+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:26:01.152+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:26:01.152+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:26:01.172+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.714 seconds
+[2023-02-17T08:26:31.570+0000] {processor.py:153} INFO - Started process (PID=1075) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:26:31.574+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:26:31.577+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:26:31.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:26:31.880+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:26:32.118+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:26:32.309+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:26:32.309+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:26:32.344+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:26:32.344+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:26:32.373+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.808 seconds
+[2023-02-17T08:27:03.132+0000] {processor.py:153} INFO - Started process (PID=1170) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:27:03.134+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:27:03.135+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:27:03.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:27:03.399+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:27:03.720+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:27:03.758+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:27:03.758+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:27:03.788+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:27:03.787+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:27:03.806+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.678 seconds
+[2023-02-17T08:27:34.188+0000] {processor.py:153} INFO - Started process (PID=1265) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:27:34.191+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:27:34.193+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:27:34.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:27:34.511+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:27:34.876+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:27:34.916+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:27:34.915+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:27:34.948+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:27:34.948+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:27:34.972+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.790 seconds
+[2023-02-17T08:28:05.327+0000] {processor.py:153} INFO - Started process (PID=1344) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:28:05.329+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:28:05.331+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:28:05.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:28:05.881+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:28:06.128+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:28:06.351+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:28:06.350+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:28:06.399+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:28:06.399+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:28:06.449+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.127 seconds
+[2023-02-17T08:28:36.705+0000] {processor.py:153} INFO - Started process (PID=1439) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:28:36.708+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T08:28:36.709+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:28:36.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:28:36.977+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T08:28:37.205+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T08:28:37.398+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:28:37.398+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T08:28:37.438+0000] {logging_mixin.py:137} INFO - [2023-02-17T08:28:37.438+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T08:28:37.468+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.768 seconds
+[2023-02-17T11:37:06.975+0000] {processor.py:153} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:37:06.979+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:37:06.981+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:37:06.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:37:07.349+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:37:07.615+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:37:07.957+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:37:07.957+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:37:08.018+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:37:08.018+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:37:08.047+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.078 seconds
+[2023-02-17T11:37:38.603+0000] {processor.py:153} INFO - Started process (PID=138) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:37:38.605+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:37:38.607+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:37:38.607+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:37:38.876+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:37:39.222+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:37:39.285+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:37:39.285+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:37:39.322+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:37:39.322+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:37:39.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.747 seconds
+[2023-02-17T11:38:09.629+0000] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:38:09.630+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:38:09.632+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:38:09.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:38:09.918+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:38:10.162+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:38:10.199+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:38:10.198+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:38:10.381+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:38:10.380+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:38:10.405+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.780 seconds
+[2023-02-17T11:38:41.131+0000] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:38:41.133+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:38:41.134+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:38:41.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:38:41.384+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:38:41.553+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:38:41.744+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:38:41.743+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:38:41.779+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:38:41.779+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:38:41.803+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.677 seconds
+[2023-02-17T11:39:12.411+0000] {processor.py:153} INFO - Started process (PID=393) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:39:12.413+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:39:12.414+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:39:12.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:39:12.684+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:39:12.884+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:39:13.067+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:39:13.066+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:39:13.096+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:39:13.096+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:39:13.117+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.710 seconds
+[2023-02-17T11:39:44.436+0000] {processor.py:153} INFO - Started process (PID=491) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:39:44.439+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:39:44.440+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:39:44.440+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:39:44.706+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:39:45.067+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:39:45.107+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:39:45.106+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:39:45.141+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:39:45.141+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:39:45.167+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.735 seconds
+[2023-02-17T11:40:15.215+0000] {processor.py:153} INFO - Started process (PID=566) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:40:15.217+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:40:15.218+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:40:15.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:40:15.718+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:40:16.483+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:40:16.550+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:40:16.548+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:40:16.797+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:40:16.797+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:40:16.826+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.616 seconds
+[2023-02-17T11:40:47.333+0000] {processor.py:153} INFO - Started process (PID=663) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:40:47.335+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:40:47.337+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:40:47.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:40:47.625+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:40:47.835+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:40:48.117+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:40:48.117+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:40:48.164+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:40:48.164+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:40:48.199+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.870 seconds
+[2023-02-17T11:41:18.613+0000] {processor.py:153} INFO - Started process (PID=753) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:41:18.616+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:41:18.617+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:41:18.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:41:18.925+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:41:19.162+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:41:19.381+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:41:19.380+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:41:19.413+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:41:19.413+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:41:19.441+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.831 seconds
+[2023-02-17T11:41:50.078+0000] {processor.py:153} INFO - Started process (PID=841) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:41:50.080+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:41:50.082+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:41:50.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:41:50.384+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:41:50.750+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:41:50.789+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:41:50.789+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:41:50.818+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:41:50.818+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:41:50.837+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.763 seconds
+[2023-02-17T11:42:21.931+0000] {processor.py:153} INFO - Started process (PID=935) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:42:21.934+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:42:21.937+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:42:21.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:42:22.252+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:42:22.489+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:42:22.725+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:42:22.534+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:42:22.758+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:42:22.758+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:42:22.783+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.857 seconds
+[2023-02-17T11:42:53.636+0000] {processor.py:153} INFO - Started process (PID=1014) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:42:53.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:42:53.641+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:42:53.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:42:53.957+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:42:54.218+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:42:54.414+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:42:54.413+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:42:54.450+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:42:54.450+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:42:54.479+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.847 seconds
+[2023-02-17T11:43:24.840+0000] {processor.py:153} INFO - Started process (PID=1090) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:43:24.842+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:43:24.845+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:43:24.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:43:25.147+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:43:25.370+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:43:25.551+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:43:25.550+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:43:25.585+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:43:25.584+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:43:25.626+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.792 seconds
+[2023-02-17T11:43:55.854+0000] {processor.py:153} INFO - Started process (PID=1186) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:43:55.856+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:43:55.857+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:43:55.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:43:56.131+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:43:56.508+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:43:56.547+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:43:56.546+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:43:56.578+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:43:56.577+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:43:56.599+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.749 seconds
+[2023-02-17T11:44:27.541+0000] {processor.py:153} INFO - Started process (PID=1263) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:44:27.545+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:44:27.548+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:44:27.548+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:44:27.987+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:44:28.327+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:44:28.386+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:44:28.382+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:44:28.620+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:44:28.619+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:44:28.669+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.134 seconds
+[2023-02-17T11:44:58.839+0000] {processor.py:153} INFO - Started process (PID=1362) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:44:58.841+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:44:58.843+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:44:58.842+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:44:59.117+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:44:59.331+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:44:59.506+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:44:59.505+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:44:59.538+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:44:59.538+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:44:59.561+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.727 seconds
+[2023-02-17T11:45:29.860+0000] {processor.py:153} INFO - Started process (PID=1442) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:45:29.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:45:29.864+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:45:29.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:45:30.149+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:45:30.357+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:45:30.538+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:45:30.538+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:45:30.569+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:45:30.569+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:45:30.593+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.737 seconds
+[2023-02-17T11:46:00.933+0000] {processor.py:153} INFO - Started process (PID=1538) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:46:00.936+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:46:00.937+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:46:00.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:46:01.222+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:46:01.661+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:46:01.698+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:46:01.698+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:46:01.726+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:46:01.726+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:46:01.745+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.816 seconds
+[2023-02-17T11:46:32.674+0000] {processor.py:153} INFO - Started process (PID=1617) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:46:32.676+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:46:32.677+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:46:32.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:46:32.952+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:46:33.164+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:46:33.202+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:46:33.201+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:46:33.385+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:46:33.385+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:46:33.408+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.738 seconds
+[2023-02-17T11:47:04.590+0000] {processor.py:153} INFO - Started process (PID=1712) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:47:04.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:47:04.594+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:47:04.594+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:47:04.881+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:47:05.100+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:47:05.285+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:47:05.285+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:47:05.324+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:47:05.323+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:47:05.347+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.761 seconds
+[2023-02-17T11:47:35.641+0000] {processor.py:153} INFO - Started process (PID=1785) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:47:35.643+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:47:35.644+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:47:35.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:47:35.936+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:47:36.327+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:47:36.371+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:47:36.371+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:47:36.403+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:47:36.403+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:47:36.423+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.787 seconds
+[2023-02-17T11:48:06.828+0000] {processor.py:153} INFO - Started process (PID=1880) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:48:06.830+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:48:06.831+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:48:06.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:48:07.099+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:48:07.457+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:48:07.491+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:48:07.490+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:48:07.517+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:48:07.517+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:48:07.536+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.713 seconds
+[2023-02-17T11:48:38.591+0000] {processor.py:153} INFO - Started process (PID=1967) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:48:38.593+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:48:38.595+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:48:38.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:48:38.935+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:48:39.180+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:48:39.393+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:48:39.227+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:48:39.428+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:48:39.428+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:48:39.461+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.876 seconds
+[2023-02-17T11:49:10.336+0000] {processor.py:153} INFO - Started process (PID=2056) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:49:10.339+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:49:10.342+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:49:10.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:49:10.668+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:49:10.879+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:49:11.065+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:49:11.064+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:49:11.096+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:49:11.096+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:49:11.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.789 seconds
+[2023-02-17T11:49:42.131+0000] {processor.py:153} INFO - Started process (PID=2145) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:49:42.133+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:49:42.134+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:49:42.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:49:42.427+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:49:42.780+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:49:42.823+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:49:42.822+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:49:42.856+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:49:42.856+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:49:42.879+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.752 seconds
+[2023-02-17T11:50:13.067+0000] {processor.py:153} INFO - Started process (PID=2228) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:50:13.069+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:50:13.071+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:50:13.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:50:13.345+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:50:13.705+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:50:13.742+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:50:13.742+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:50:13.773+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:50:13.773+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:50:13.796+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.732 seconds
+[2023-02-17T11:50:45.258+0000] {processor.py:153} INFO - Started process (PID=2326) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:50:45.262+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:50:45.264+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:50:45.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:50:45.561+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:50:45.765+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:50:45.941+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:50:45.941+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:50:45.973+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:50:45.973+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:50:45.996+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.743 seconds
+[2023-02-17T11:51:16.676+0000] {processor.py:153} INFO - Started process (PID=2408) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:51:16.678+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:51:16.680+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:51:16.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:51:16.965+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:51:17.212+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:51:17.401+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:51:17.401+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:51:17.435+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:51:17.434+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:51:17.458+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.787 seconds
+[2023-02-17T11:51:48.461+0000] {processor.py:153} INFO - Started process (PID=2503) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:51:48.464+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:51:48.465+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:51:48.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:51:48.778+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:51:49.160+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:51:49.198+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:51:49.198+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:51:49.228+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:51:49.228+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:51:49.247+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.791 seconds
+[2023-02-17T11:52:20.348+0000] {processor.py:153} INFO - Started process (PID=2582) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:52:20.351+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:52:20.352+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:52:20.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:52:20.631+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:52:20.979+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:52:21.014+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:52:21.013+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:52:21.042+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:52:21.042+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:52:21.065+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.722 seconds
+[2023-02-17T11:52:51.689+0000] {processor.py:153} INFO - Started process (PID=2675) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:52:51.691+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:52:51.692+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:52:51.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:52:51.966+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:52:52.173+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:52:52.354+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:52:52.353+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:52:52.385+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:52:52.384+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:52:52.404+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.720 seconds
+[2023-02-17T11:53:23.390+0000] {processor.py:153} INFO - Started process (PID=2770) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:53:23.393+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:53:23.396+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:53:23.395+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:53:23.712+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:53:24.066+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:53:24.105+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:53:24.105+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:53:24.139+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:53:24.139+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:53:24.161+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.776 seconds
+[2023-02-17T11:53:54.767+0000] {processor.py:153} INFO - Started process (PID=2852) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:53:54.769+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:53:54.770+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:53:54.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:53:55.043+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:53:55.418+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:53:55.460+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:53:55.459+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:53:55.494+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:53:55.494+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:53:55.523+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.761 seconds
+[2023-02-17T11:54:26.425+0000] {processor.py:153} INFO - Started process (PID=2946) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:54:26.427+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:54:26.429+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:54:26.429+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:54:26.711+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:54:27.065+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:54:27.098+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:54:27.098+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:54:27.125+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:54:27.125+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:54:27.145+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.725 seconds
+[2023-02-17T11:54:57.869+0000] {processor.py:153} INFO - Started process (PID=3027) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:54:57.871+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:54:57.873+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:54:57.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:54:58.180+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:54:58.415+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:54:58.624+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:54:58.623+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:54:58.659+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:54:58.658+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:54:58.686+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.822 seconds
+[2023-02-17T11:55:29.136+0000] {processor.py:153} INFO - Started process (PID=3126) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:55:29.138+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:55:29.140+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:55:29.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:55:29.422+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:55:29.786+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:55:29.828+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:55:29.827+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:55:29.865+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:55:29.865+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:55:29.891+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.760 seconds
+[2023-02-17T11:56:00.340+0000] {processor.py:153} INFO - Started process (PID=3206) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:56:00.343+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:56:00.344+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:56:00.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:56:00.628+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:56:01.233+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:56:01.283+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:56:01.283+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:56:01.322+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:56:01.322+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:56:01.353+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 1.018 seconds
+[2023-02-17T11:56:31.888+0000] {processor.py:153} INFO - Started process (PID=3291) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:56:31.892+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:56:31.895+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:56:31.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:56:32.187+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:56:32.546+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:56:32.579+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:56:32.579+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:56:32.606+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:56:32.606+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:56:32.631+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.748 seconds
+[2023-02-17T11:57:03.995+0000] {processor.py:153} INFO - Started process (PID=3387) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:57:03.998+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:57:04.000+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:57:04.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:57:04.355+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:57:04.669+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:57:04.910+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:57:04.910+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:57:04.938+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:57:04.938+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:57:04.962+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.972 seconds
+[2023-02-17T11:57:35.164+0000] {processor.py:153} INFO - Started process (PID=3463) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:57:35.167+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:57:35.169+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:57:35.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:57:35.495+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:57:35.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:57:35.922+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:57:35.921+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:57:35.955+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:57:35.955+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:57:35.977+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.818 seconds
+[2023-02-17T11:58:06.128+0000] {processor.py:153} INFO - Started process (PID=3548) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:58:06.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:58:06.132+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:58:06.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:58:06.492+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:58:06.919+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:58:06.972+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:58:06.971+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:58:07.011+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:58:07.010+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:58:07.039+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.917 seconds
+[2023-02-17T11:58:37.596+0000] {processor.py:153} INFO - Started process (PID=3635) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:58:37.599+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:58:37.600+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:58:37.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:58:37.920+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:58:38.140+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:58:38.320+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:58:38.319+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:58:38.353+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:58:38.353+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:58:38.376+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.785 seconds
+[2023-02-17T11:59:08.590+0000] {processor.py:153} INFO - Started process (PID=3721) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:59:08.593+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:59:08.595+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:59:08.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:59:08.901+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:59:09.102+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:59:09.294+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:59:09.293+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:59:09.327+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:59:09.327+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:59:09.353+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.767 seconds
+[2023-02-17T11:59:40.028+0000] {processor.py:153} INFO - Started process (PID=3807) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:59:40.030+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T11:59:40.032+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:59:40.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:59:40.284+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T11:59:40.682+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T11:59:40.722+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:59:40.722+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T11:59:40.755+0000] {logging_mixin.py:137} INFO - [2023-02-17T11:59:40.755+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T11:59:40.781+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.758 seconds
+[2023-02-17T12:00:11.209+0000] {processor.py:153} INFO - Started process (PID=3902) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:00:11.211+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:00:11.213+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:00:11.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:00:11.508+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:00:11.915+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:00:11.955+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:00:11.954+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:00:11.988+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:00:11.987+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:00:12.010+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.806 seconds
+[2023-02-17T12:00:42.887+0000] {processor.py:153} INFO - Started process (PID=3981) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:00:42.889+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:00:42.891+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:00:42.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:00:43.151+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:00:43.374+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:00:43.551+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:00:43.551+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:00:43.581+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:00:43.581+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:00:43.602+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.720 seconds
+[2023-02-17T12:01:13.889+0000] {processor.py:153} INFO - Started process (PID=4076) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:01:13.891+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:01:13.893+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:01:13.893+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:01:14.148+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:01:14.355+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:01:14.559+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:01:14.558+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:01:14.594+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:01:14.594+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:01:14.621+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.736 seconds
+[2023-02-17T12:01:44.996+0000] {processor.py:153} INFO - Started process (PID=4155) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:01:44.999+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:01:45.000+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:01:45.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:01:45.282+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:01:45.633+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:01:45.667+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:01:45.667+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:01:45.699+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:01:45.699+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:01:45.721+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.731 seconds
+[2023-02-17T12:02:17.175+0000] {processor.py:153} INFO - Started process (PID=4251) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:02:17.179+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:02:17.184+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:02:17.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:02:17.521+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:02:17.990+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:02:18.033+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:02:18.033+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:02:18.068+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:02:18.067+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:02:18.093+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.923 seconds
+[2023-02-17T12:02:48.702+0000] {processor.py:153} INFO - Started process (PID=4330) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:02:48.705+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:02:48.706+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:02:48.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:02:48.969+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:02:49.198+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:02:49.415+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:02:49.415+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:02:49.447+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:02:49.447+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:02:49.468+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.770 seconds
+[2023-02-17T12:03:20.538+0000] {processor.py:153} INFO - Started process (PID=4425) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:03:20.540+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:03:20.542+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:03:20.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:03:20.845+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:03:21.206+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:03:21.245+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:03:21.244+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:03:21.278+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:03:21.278+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:03:21.300+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.767 seconds
+[2023-02-17T12:03:51.622+0000] {processor.py:153} INFO - Started process (PID=4504) to work on /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:03:51.625+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/dag_scrape_specific.py for tasks to queue
+[2023-02-17T12:03:51.627+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:03:51.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:03:51.890+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/snowflake/connector/options.py:99 UserWarning: You have an incompatible version of 'pyarrow' installed (9.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+[2023-02-17T12:03:52.257+0000] {processor.py:753} INFO - DAG(s) dict_keys(['dag_scrape_from_wiki']) retrieved from /opt/airflow/dags/dag_scrape_specific.py
+[2023-02-17T12:03:52.295+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:03:52.294+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-02-17T12:03:52.327+0000] {logging_mixin.py:137} INFO - [2023-02-17T12:03:52.327+0000] {dag.py:3427} INFO - Setting next_dagrun for dag_scrape_from_wiki to 2023-02-19T00:00:00+00:00, run_after=2023-02-26T00:00:00+00:00
+[2023-02-17T12:03:52.351+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/dag_scrape_specific.py took 0.733 seconds

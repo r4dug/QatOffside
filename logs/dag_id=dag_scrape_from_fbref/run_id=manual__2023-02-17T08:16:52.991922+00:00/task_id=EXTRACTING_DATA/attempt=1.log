@@ -1,0 +1,120 @@
+[2023-02-17T08:16:58.580+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_scrape_from_fbref.EXTRACTING_DATA manual__2023-02-17T08:16:52.991922+00:00 [queued]>
+[2023-02-17T08:16:58.595+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_scrape_from_fbref.EXTRACTING_DATA manual__2023-02-17T08:16:52.991922+00:00 [queued]>
+[2023-02-17T08:16:58.597+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:16:58.599+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-02-17T08:16:58.600+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:16:58.620+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): EXTRACTING_DATA> on 2023-02-17 08:16:52.991922+00:00
+[2023-02-17T08:16:58.629+0000] {standard_task_runner.py:55} INFO - Started process 255 to run task
+[2023-02-17T08:16:58.635+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_scrape_from_fbref', 'EXTRACTING_DATA', 'manual__2023-02-17T08:16:52.991922+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/dag_scrape_fbref.py', '--cfg-path', '/tmp/tmpnh07sbe5']
+[2023-02-17T08:16:58.639+0000] {standard_task_runner.py:83} INFO - Job 129: Subtask EXTRACTING_DATA
+[2023-02-17T08:16:58.721+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_scrape_from_fbref.EXTRACTING_DATA manual__2023-02-17T08:16:52.991922+00:00 [running]> on host 55b685598511
+[2023-02-17T08:16:58.802+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=test
+AIRFLOW_CTX_DAG_ID=dag_scrape_from_fbref
+AIRFLOW_CTX_TASK_ID=EXTRACTING_DATA
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T08:16:52.991922+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-17T08:16:52.991922+00:00
+[2023-02-17T08:17:08.244+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_scrape_fbref.py", line 103, in extract_data_send_to_snowflake
+    goalkeeping=pd.read_html(data.text, match="Goalkeeping")[0]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 1113, in read_html
+    displayed_only=displayed_only,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 902, in _parse
+    parser = _parser_dispatch(flav)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 851, in _parser_dispatch
+    raise ImportError("html5lib not found, please install it")
+ImportError: html5lib not found, please install it
+[2023-02-17T08:17:08.260+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_scrape_from_fbref, task_id=EXTRACTING_DATA, execution_date=20230217T081652, start_date=20230217T081658, end_date=20230217T081708
+[2023-02-17T08:17:08.275+0000] {configuration.py:635} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-02-17T08:17:08.277+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2023-02-17T08:17:08.284+0000] {configuration.py:635} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-02-17T08:17:08.285+0000] {email.py:229} INFO - Email alerting: attempt 1
+[2023-02-17T08:17:08.286+0000] {taskinstance.py:1835} ERROR - Failed to send email to: test@test.com
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1378, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1524, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1585, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_scrape_fbref.py", line 103, in extract_data_send_to_snowflake
+    goalkeeping=pd.read_html(data.text, match="Goalkeeping")[0]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 1113, in read_html
+    displayed_only=displayed_only,
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 902, in _parse
+    parser = _parser_dispatch(flav)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/html.py", line 851, in _parser_dispatch
+    raise ImportError("html5lib not found, please install it")
+ImportError: html5lib not found, please install it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2235, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1833, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2237, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 72, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 120, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 231, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 265, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2023-02-17T08:17:08.302+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 129 for task EXTRACTING_DATA (html5lib not found, please install it; 255)
+[2023-02-17T08:17:08.331+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2023-02-17T08:17:08.352+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

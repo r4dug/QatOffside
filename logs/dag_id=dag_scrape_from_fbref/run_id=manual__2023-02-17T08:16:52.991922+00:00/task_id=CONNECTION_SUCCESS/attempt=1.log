@@ -1,0 +1,33 @@
+[2023-02-17T08:16:55.255+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_scrape_from_fbref.CONNECTION_SUCCESS manual__2023-02-17T08:16:52.991922+00:00 [queued]>
+[2023-02-17T08:16:55.265+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_scrape_from_fbref.CONNECTION_SUCCESS manual__2023-02-17T08:16:52.991922+00:00 [queued]>
+[2023-02-17T08:16:55.266+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:16:55.267+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2023-02-17T08:16:55.268+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-17T08:16:55.283+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): CONNECTION_SUCCESS> on 2023-02-17 08:16:52.991922+00:00
+[2023-02-17T08:16:55.290+0000] {standard_task_runner.py:55} INFO - Started process 249 to run task
+[2023-02-17T08:16:55.295+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_scrape_from_fbref', 'CONNECTION_SUCCESS', 'manual__2023-02-17T08:16:52.991922+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/dag_scrape_fbref.py', '--cfg-path', '/tmp/tmpizm9metz']
+[2023-02-17T08:16:55.298+0000] {standard_task_runner.py:83} INFO - Job 128: Subtask CONNECTION_SUCCESS
+[2023-02-17T08:16:55.385+0000] {task_command.py:389} INFO - Running <TaskInstance: dag_scrape_from_fbref.CONNECTION_SUCCESS manual__2023-02-17T08:16:52.991922+00:00 [running]> on host 55b685598511
+[2023-02-17T08:16:55.470+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=test@test.com
+AIRFLOW_CTX_DAG_OWNER=test
+AIRFLOW_CTX_DAG_ID=dag_scrape_from_fbref
+AIRFLOW_CTX_TASK_ID=CONNECTION_SUCCESS
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-17T08:16:52.991922+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-17T08:16:52.991922+00:00
+[2023-02-17T08:16:55.473+0000] {connection.py:285} INFO - Snowflake Connector for Python Version: 3.0.0, Python Version: 3.7.15, Platform: Linux-5.15.49-linuxkit-x86_64-with-debian-11.5
+[2023-02-17T08:16:55.474+0000] {connection.py:975} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2023-02-17T08:16:55.475+0000] {connection.py:992} INFO - Setting use_openssl_only mode to False
+[2023-02-17T08:16:56.576+0000] {cursor.py:727} INFO - query: [SELECT current_version()]
+[2023-02-17T08:16:56.820+0000] {cursor.py:740} INFO - query execution done
+[2023-02-17T08:16:56.822+0000] {cursor.py:879} INFO - Number of results in first chunk: 1
+[2023-02-17T08:16:56.832+0000] {logging_mixin.py:137} INFO - 7.5.1
+[2023-02-17T08:16:56.833+0000] {logging_mixin.py:137} INFO - Successfully connected to Snowflake Database
+[2023-02-17T08:16:56.835+0000] {connection.py:581} INFO - closed
+[2023-02-17T08:16:56.919+0000] {connection.py:584} INFO - No async queries seem to be running, deleting session
+[2023-02-17T08:16:57.082+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-17T08:16:57.101+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=dag_scrape_from_fbref, task_id=CONNECTION_SUCCESS, execution_date=20230217T081652, start_date=20230217T081655, end_date=20230217T081657
+[2023-02-17T08:16:57.162+0000] {local_task_job.py:159} INFO - Task exited with return code 0
