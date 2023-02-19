@@ -4,3 +4,4 @@ pandas
 snowflake-connector-python
 snowflake-sqlalchemy
 html5lib
+html-table-parser-python3

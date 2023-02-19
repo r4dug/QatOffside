@@ -90,8 +90,32 @@ def extract_data_send_to_snowflake():
 
     ### match results ###
     results = pd.read_html(results_url.text)
-    df_test = results[1]
-    df_test = df_test.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_a_results = results[6]
+    df_group_a_results = df_group_a_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_b_results = results[8]
+    df_group_b_results = df_group_b_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_c_results = results[10]
+    df_group_c_results = df_group_c_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_d_results = results[12]
+    df_group_d_results = df_group_d_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_e_results = results[14]
+    df_group_e_results = df_group_e_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_f_results = results[16]
+    df_group_f_results = df_group_f_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_g_results = results[18]
+    df_group_g_results = df_group_g_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_group_h_results = results[20]
+    df_group_h_results = df_group_h_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_round_of_16_results = results[4]
+    df_round_of_16_results = df_round_of_16_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_quarter_final_results = results[3]
+    df_quarter_final_results = df_quarter_final_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_semi_final_results = results[2]
+    df_semi_final_results = df_semi_final_results.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_third_place_result = results[1]
+    df_third_place_result = df_third_place_result.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
+    df_final_result = results[0]
+    df_final_result = df_final_result.rename(columns={1: 'Team1', 2: 'Score', 3:'Team2', 5:'Date'}).drop([0,4],axis=1)
 
     ### wiki world cup 22 ###
     wiki_dfs = pd.read_html(wiki_url)
@@ -170,19 +194,31 @@ def extract_data_send_to_snowflake():
     #df_worldcup_apps.to_sql('world_cup_team_apps', con=engine, index=False)
     #df_manager_appnmtyear.to_sql('manager_appnmt_year', con=engine, index=False)
     #df_manager_origin.to_sql('manager_origin', con=engine, index=False)
-    #df_test.to_sql('match_results', con=engine, index=False)
-    df_bidders_cleaned.to_sql('bidders', con=engine, index=False) #make sure index is False, Snowflake doesnt accept indexes
-    df_prizemoney_cleaned.to_sql('prize_money', con=engine, index=False)
-    df_stadium_capacity.to_sql('stadiums', con=engine, index=False)
-    df_group_A.to_sql('group_a_standings', con=engine, index=False)
-    df_group_B.to_sql('group_b_standings', con=engine, index=False)
-    df_group_C.to_sql('group_c_standings', con=engine, index=False)
-    df_group_D.to_sql('group_d_standings', con=engine, index=False)
-    df_group_E.to_sql('group_e_standings', con=engine, index=False)
-    df_group_F.to_sql('group_f_standings', con=engine, index=False)
-    df_group_G.to_sql('group_g_standings', con=engine, index=False)
-    df_group_H.to_sql('group_h_standings', con=engine, index=False)
-    df_transformed_awards.to_sql('awards', con=engine, index=False)
+    df_group_a_results.to_sql('group_a_results', con=engine, index=False)
+    df_group_b_results.to_sql('group_b_results', con=engine, index=False)
+    df_group_c_results.to_sql('group_c_results', con=engine, index=False)
+    df_group_d_results.to_sql('group_d_results', con=engine, index=False)
+    df_group_e_results.to_sql('group_e_results', con=engine, index=False)
+    df_group_f_results.to_sql('group_f_results', con=engine, index=False)
+    df_group_g_results.to_sql('group_g_results', con=engine, index=False)
+    df_group_h_results.to_sql('group_h_results', con=engine, index=False)
+    df_round_of_16_results.to_sql('round_of_16_results', con=engine, index=False)
+    df_quarter_final_results.to_sql('quarter_final_results', con=engine, index=False)
+    df_semi_final_results.to_sql('semi_final_results', con=engine, index=False)
+    df_third_place_result.to_sql('third_place_result', con=engine, index=False)
+    df_final_result.to_sql('final_result', con=engine, index=False)
+    #df_bidders_cleaned.to_sql('bidders', con=engine, index=False) #make sure index is False, Snowflake doesnt accept indexes
+    #df_prizemoney_cleaned.to_sql('prize_money', con=engine, index=False)
+    #df_stadium_capacity.to_sql('stadiums', con=engine, index=False)
+    #df_group_A.to_sql('group_a_standings', con=engine, index=False)
+    #df_group_B.to_sql('group_b_standings', con=engine, index=False)
+    #df_group_C.to_sql('group_c_standings', con=engine, index=False)
+    #df_group_D.to_sql('group_d_standings', con=engine, index=False)
+    #df_group_E.to_sql('group_e_standings', con=engine, index=False)
+    #df_group_F.to_sql('group_f_standings', con=engine, index=False)
+    #df_group_G.to_sql('group_g_standings', con=engine, index=False)
+    #df_group_H.to_sql('group_h_standings', con=engine, index=False)
+    #df_transformed_awards.to_sql('awards', con=engine, index=False)
     connection.close()
     engine.dispose()
 
